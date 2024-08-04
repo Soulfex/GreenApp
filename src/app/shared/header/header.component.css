@@ -2,23 +2,11 @@
 .navbar-brand {
   font-weight: bold;
   color: #fff;
+  justify-content: right;
 }
 
 .navbar-nav .nav-link {
   margin-right: 15px;
 }
 
-.navbar-nav .nav-link.active {
-  color: #ffc107; /* Color dorado para el enlace activo */
-}
 
-.btn-outline-light {
-  margin-left: 10px;
-  border-color: #ffc107; /* Borde dorado */
-  color: #ffc107; /* Texto dorado */
-}
-
-.btn-outline-light:hover {
-  background-color: #ffc107; /* Fondo dorado al pasar el ratón */
-  color: #000; /* Texto negro al pasar el ratón */
-}
