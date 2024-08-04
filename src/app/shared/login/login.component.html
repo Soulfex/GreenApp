@@ -1,0 +1,33 @@
+<mat-card class="example-card" >
+  <mat-card-header >
+    <mat-card-title>
+      Login
+    </mat-card-title>
+
+  </mat-card-header>
+
+  <mat-card-content style="align-self: center ;">
+
+
+    <p>
+      <mat-form-field appearance="fill">
+        <mat-label>Usuario</mat-label>
+        <input matInput placeholder="Usuario">
+        <mat-icon matSuffix>person</mat-icon>
+      </mat-form-field>
+    </p>
+    <p>
+      <mat-form-field appearance="outline">
+        <mat-label>Contraseña</mat-label>
+        <input matInput placeholder="Contraseña" type="password" >
+        <mat-icon matSuffix>lock</mat-icon>
+      </mat-form-field>
+    </p>
+
+
+
+  </mat-card-content>
+
+  <mat-card-actions style="align-self: center ;" >
+    <button type="button" (click)="login()" class="btn btn-primary btn-sm">Entrar</button>
+  </mat-card-actions>
